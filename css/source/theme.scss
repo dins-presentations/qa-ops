@@ -1,0 +1,91 @@
+/**
+ * Black theme for reveal.js. This is the opposite of the 'white' theme.
+ *
+ * Copyright (C) 2015 Hakim El Hattab, http://hakim.se
+ */
+
+ // This file has been copied over from
+ // ../../bower_components/reveal.js/css/theme/source/black.scss
+
+ // See ../../bower_components/reveal.js/css/theme/README.md
+ // for further explanations on how to create a custom reveal.js theme.
+
+// Default mixins and settings -----------------
+@import "../../bower_components/reveal.js/css/theme/template/mixins";
+@import "../../bower_components/reveal.js/css/theme/template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import url(../bower_components/roboto-fontface/css/roboto/roboto-fontface.css);
+
+
+// Override theme settings (see ../../bower_components/reveal.js/css/theme/template/settings.scss)
+$backgroundColor: #fafafa;
+
+$mainColor: #222;
+$headingColor: #222;
+
+$mainFontSize: 38px;
+$mainFont: 'Roboto-Regular', 'Source Sans Pro', Helvetica, sans-serif;
+$headingFont: 'Roboto-Light', 'Source Sans Pro', Helvetica, sans-serif;
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
+$headingTextTransform: none;
+$headingFontWeight: 600;
+$linkColor: #527fc0;
+$linkColorHover: lighten( $linkColor, 15% );
+$selectionBackgroundColor: lighten( $linkColor, 25% );
+
+$heading1Size: 2.5em;
+$heading2Size: 1.6em;
+$heading3Size: 1.3em;
+$heading4Size: 1.0em;
+
+section.has-light-background {
+	&, h1, h2, h3, h4, h5, h6 {
+		color: #222;
+	}
+}
+
+.croissant {
+    margin: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+    display: inline-block;
+    background: none !important;
+}
+
+s {
+    color: #D64439;
+    text-align: -1000em;
+    overflow: hidden;
+}
+s:after {
+    color: #383d3d;
+    content: attr(data-text);
+}
+
+.issue {
+    color: #D64439;
+}
+
+.solution {
+    color: #41AD41;
+}
+
+.green {
+    text-decoration: underline;
+    -webkit-text-decoration-color: #41AD41;
+    text-decoration-color: #41AD41;
+}
+
+.red {
+    text-decoration: underline;
+    -webkit-text-decoration-color: #D64439;
+    text-decoration-color: #D64439;
+}
+
+// Theme template ------------------------------
+@import "../../bower_components/reveal.js/css/theme/template/theme";
+// ---------------------------------------------

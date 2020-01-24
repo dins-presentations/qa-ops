@@ -1,0 +1,14 @@
+{
+    "name": "everybody-hates-e2e",
+    "version": "0.0.0",
+    "dependencies": {
+        "reveal.js": "~3.5.0",
+        "highlightjs": "~9.0.0",
+        "roboto-fontface": "~0.8.0",
+        "cytoscape": "^3.2.6",
+        "webcola": "^3.3.6",
+        "cytoscape-cola": "^2.0.1",
+        "cytoscape-cose-bilkent": "^4.0.0",
+        "jq": "^3.2.1"
+    }
+}

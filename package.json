@@ -1,0 +1,35 @@
+{
+    "name": "everybody-hates-e2e-tests",
+    "version": "0.0.0",
+    "private": true,
+    "devDependencies": {
+        "grunt-build-control": "^0.7.1"
+    },
+    "engines": {
+        "node": ">=4"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:krasilnikov-dmitriy/e2e.git"
+    },
+    "scripts": {
+        "test": "grunt test",
+        "postinstall": "./node_modules/bower/bin/bower install"
+    },
+    "dependencies": {
+        "bower": "1.8.0",
+        "coffeelint": "^1.16.0",
+        "grunt": "1.0.1",
+        "grunt-cli": "1.2.0",
+        "grunt-coffeelint": "0.0.16",
+        "grunt-contrib-connect": "^1.0.2",
+        "grunt-contrib-copy": "^1.0.0",
+        "grunt-contrib-jshint": "^1.1.0",
+        "grunt-contrib-watch": "^1.0.0",
+        "grunt-sass": "^2.0.0",
+        "load-grunt-tasks": "^3.5.2",
+        "npm": "^6.9.0",
+        "to": "^0.2.9",
+        "update": "^0.7.4"
+    }
+}
