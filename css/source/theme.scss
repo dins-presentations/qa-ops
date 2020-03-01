@@ -4,11 +4,11 @@
  * Copyright (C) 2015 Hakim El Hattab, http://hakim.se
  */
 
- // This file has been copied over from
- // ../../bower_components/reveal.js/css/theme/source/black.scss
+// This file has been copied over from
+// ../../bower_components/reveal.js/css/theme/source/black.scss
 
- // See ../../bower_components/reveal.js/css/theme/README.md
- // for further explanations on how to create a custom reveal.js theme.
+// See ../../bower_components/reveal.js/css/theme/README.md
+// for further explanations on how to create a custom reveal.js theme.
 
 // Default mixins and settings -----------------
 @import "../../bower_components/reveal.js/css/theme/template/mixins";
@@ -19,20 +19,19 @@
 // Include theme-specific fonts
 @import url(../bower_components/roboto-fontface/css/roboto/roboto-fontface.css);
 
-
 // Override theme settings (see ../../bower_components/reveal.js/css/theme/template/settings.scss)
-$backgroundColor: #fafafa;
+$backgroundColor: #FFFBF5;
 
 $mainColor: #222;
 $headingColor: #222;
 
 $mainFontSize: 38px;
-$mainFont: 'Roboto-Regular', 'Source Sans Pro', Helvetica, sans-serif;
-$headingFont: 'Roboto-Light', 'Source Sans Pro', Helvetica, sans-serif;
+$mainFont: 'Roboto-Light', Helvetica, 'Source Sans Pro',  sans-serif;
+$headingFont: 'Roboto-Light', Helvetica, 'Source Sans Pro',  sans-serif;
 $headingTextShadow: none;
 $headingLetterSpacing: normal;
 $headingTextTransform: none;
-$headingFontWeight: 600;
+//$headingFontWeight: 600;
 $linkColor: #527fc0;
 $linkColorHover: lighten( $linkColor, 15% );
 $selectionBackgroundColor: lighten( $linkColor, 25% );
@@ -43,9 +42,160 @@ $heading3Size: 1.3em;
 $heading4Size: 1.0em;
 
 section.has-light-background {
-	&, h1, h2, h3, h4, h5, h6 {
-		color: #222;
-	}
+    &, h1, h2, h3, h4, h5, h6 {
+        color: #222;
+    }
+}
+
+.logo-container {
+    //display: inline-block;
+    position: absolute;
+    //top: 90%;
+    //right: 50%;
+    left: 30px;
+    bottom: 30px;
+    width: 160px;
+    z-index: 100;
+}
+
+.logo-upper {
+    bottom: 100px;
+}
+
+.logo-container #dins_logo {
+    width: 100%;
+    height: auto;
+}
+
+.reveal .slide-number {
+    font-family: 'Roboto-Light', Helvetica, 'Source Sans Pro',  sans-serif !important;
+    font-size: 32px;
+}
+
+.ci-is-easy {
+    text-transform: uppercase !important;
+}
+
+.roboto-thin {
+    font-family: 'Roboto-Thin', Helvetica, 'Source Sans Pro',  sans-serif !important;
+    font-weight: 100 !important;
+}
+
+.roboto-light {
+    font-family: 'Roboto-Light', Helvetica, 'Source Sans Pro',  sans-serif !important;
+    font-weight: 300 !important;
+}
+
+.roboto-regular {
+    font-family: 'Roboto-Regular', Helvetica, 'Source Sans Pro',  sans-serif !important;
+    font-weight: 400 !important;
+}
+
+.roboto-medium {
+    font-family: 'Roboto-Medium', Helvetica, 'Source Sans Pro',  sans-serif !important;
+    font-weight: 500 !important;
+}
+
+.roboto-bold {
+    font-family: 'Roboto-Bold', Helvetica, 'Source Sans Pro',  sans-serif !important;
+    font-weight: 700 !important;
+}
+
+.roboto-black {
+    font-family: 'Roboto-Black', Helvetica, 'Source Sans Pro',  sans-serif !important;
+    font-weight: 900 !important;
+}
+
+.color-red {
+    color: #C90104 !important;
+}
+
+.color-evening {
+    color: #4C6FC1 !important;
+}
+
+.color-cyan {
+    color: #29AAE3 !important;
+}
+
+.color-purple-light {
+    color:  #644BB0 !important;
+}
+
+.color-purple {
+    color:  #383794 !important;
+}
+
+
+.color-grey {
+    color: #9b9b9b !important;
+}
+
+
+.high-line {
+    line-height: 1.8 !important;
+}
+
+.flex-row-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.flex-column-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.aligned-right {
+    align-items: flex-end;
+}
+
+.aligned-left {
+    align-items: flex-start;
+}
+
+.flex-column-container div {
+    line-height: 1.8;
+}
+
+.circle {
+    position: relative;
+    display: block;
+    margin: 2em 0;
+    text-align: center;
+}
+
+.circle__inner {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.circle:after {
+    display: block;
+    padding-bottom: 100%;
+    width: 100%;
+    height: 0;
+    border-radius: 50%;
+    background-color: #4C6FC1;
+    content: "";
+}
+
+.circle__wrapper {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.circle__content {
+    display: table-cell;
+    padding: 100em;
+    vertical-align: middle !important;
 }
 
 .croissant {
@@ -56,34 +206,36 @@ section.has-light-background {
     background: none !important;
 }
 
-s {
-    color: #D64439;
-    text-align: -1000em;
-    overflow: hidden;
-}
-s:after {
-    color: #383d3d;
-    content: attr(data-text);
+.slide-flex-container {
+    display: flex;
+    flex-direction: column;
 }
 
-.issue {
-    color: #D64439;
+.left-flex-container {
+    display: flex;
+    justify-content: flex-start;
 }
 
-.solution {
-    color: #41AD41;
+.center-flex-container {
+    display: flex;
+    justify-content: center;
 }
 
-.green {
-    text-decoration: underline;
-    -webkit-text-decoration-color: #41AD41;
-    text-decoration-color: #41AD41;
-}
-
-.red {
-    text-decoration: underline;
-    -webkit-text-decoration-color: #D64439;
-    text-decoration-color: #D64439;
+.button_yellow {
+    font: 48px Arial, Helvetica, sans-serif !important;
+    display: inline !important;
+    outline: none !important;
+    cursor: pointer !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    padding: 0.1em 0.8em 0.1em !important;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3) !important;
+    border-radius: 0.05em !important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) !important;
+    margin: 2px 4px !important;
+    color: white !important;
+    border: solid 1px #ff9a1b !important;
+    background: #ffb04e !important;
 }
 
 // Theme template ------------------------------
