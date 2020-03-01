@@ -1,5 +1,5 @@
 {
-    "name": "everybody-hates-e2e",
+    "name": "qa-ops",
     "version": "0.0.0",
     "dependencies": {
         "reveal.js": "~3.5.0",
