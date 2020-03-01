@@ -1,5 +1,5 @@
 {
-    "name": "everybody-hates-e2e-tests",
+    "name": "qa-ops",
     "version": "0.0.0",
     "private": true,
     "devDependencies": {
@@ -10,7 +10,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git@github.com:krasilnikov-dmitriy/e2e.git"
+        "url": "git@github.com:dins-presentations/qa-ops.git"
     },
     "scripts": {
         "test": "grunt test",

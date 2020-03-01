@@ -1,10 +1,10 @@
 {
     "generator-reveal": {
-        "presentationTitle": "Everybody Hates E2E Tests",
+        "presentationTitle": "QA Ops",
         "packageVersion": "0.0.0",
         "useSass": true,
         "deployToGithubPages": true,
-        "githubUsername": "krasilnikov-dmitriy",
-        "githubRepository": "e2e"
+        "githubUsername": "dins-presentations",
+        "githubRepository": "qa-ops"
     }
 }
