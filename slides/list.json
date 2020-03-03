@@ -4,6 +4,11 @@
     "intro/01_scheme_more_tests.html",
     "intro/02_annoying_questions.html",
     "intro/03_jenkins_jobs.html",
+    {
+        "attr": {
+            "data-background": "resources/img/dins-banner.svg"
+        }
+    },
     "intro/04_what_is_rc.html",
     "intro/05_what_is_platform.html",
     "intro/06_platform_testing.html",

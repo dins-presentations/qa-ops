@@ -2,7 +2,7 @@
     "name": "qa-ops",
     "version": "0.0.0",
     "dependencies": {
-        "reveal.js": "~3.5.0",
+        "reveal.js": "~3.9.2",
         "highlightjs": "~9.0.0",
         "roboto-fontface": "~0.8.0",
         "cytoscape": "^3.2.6",
