@@ -6,33 +6,24 @@
     "intro/03_jenkins_jobs.html",
     {
         "attr": {
-            "data-background": "resources/img/dins.png",
-            "data-transition": "fade-in slide-out",
-            "data-transition-speed":"slow"
+            "data-background": "resources/img/dins.png"
         }
     },
     {
         "attr": {
-            "data-background": "resources/img/office_1.png",
-            "data-transition": "fade-in zoom-out",
-            "data-transition-speed": "slow"
+            "data-background": "resources/img/office_1.png"
         }
     },
     {
         "attr": {
-            "data-background": "resources/img/office_2.png",
-            "data-transition": "zoom",
-            "data-transition-speed": "slow"
+            "data-background": "resources/img/office_2.png"
         }
     },
     {
         "attr": {
-            "data-background": "resources/img/office_life.png",
-            "data-transition": "concave",
-            "data-transition-speed": "slow"
+            "data-background": "resources/img/office_life.png"
         }
     },
-    "intro/04_what_is_rc.html",
     "intro/05_what_is_platform.html",
     "intro/06_platform_testing.html",
     "intro/07_why_ci_doesnt_work.html",
