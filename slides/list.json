@@ -6,7 +6,30 @@
     "intro/03_jenkins_jobs.html",
     {
         "attr": {
-            "data-background": "resources/img/dins-banner.svg"
+            "data-background": "resources/img/dins.png",
+            "data-transition": "fade-in slide-out",
+            "data-transition-speed":"slow"
+        }
+    },
+    {
+        "attr": {
+            "data-background": "resources/img/office_1.png",
+            "data-transition": "fade-in zoom-out",
+            "data-transition-speed": "slow"
+        }
+    },
+    {
+        "attr": {
+            "data-background": "resources/img/office_2.png",
+            "data-transition": "zoom",
+            "data-transition-speed": "slow"
+        }
+    },
+    {
+        "attr": {
+            "data-background": "resources/img/office_life.png",
+            "data-transition": "concave",
+            "data-transition-speed": "slow"
         }
     },
     "intro/04_what_is_rc.html",
