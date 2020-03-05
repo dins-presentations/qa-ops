@@ -20,18 +20,18 @@
 @import url(../bower_components/roboto-fontface/css/roboto/roboto-fontface.css);
 
 // Override theme settings (see ../../bower_components/reveal.js/css/theme/template/settings.scss)
-$backgroundColor: #FFFBF5;
+$backgroundColor: #fafafa;
 
 $mainColor: #222;
 $headingColor: #222;
 
 $mainFontSize: 38px;
-$mainFont: 'Roboto-Light', Helvetica, 'Source Sans Pro',  sans-serif;
+$mainFont: 'Roboto-Regular', Helvetica, 'Source Sans Pro',  sans-serif;
 $headingFont: 'Roboto-Light', Helvetica, 'Source Sans Pro',  sans-serif;
 $headingTextShadow: none;
 $headingLetterSpacing: normal;
 $headingTextTransform: none;
-//$headingFontWeight: 600;
+$headingFontWeight: 600;
 $linkColor: #527fc0;
 $linkColorHover: lighten( $linkColor, 15% );
 $selectionBackgroundColor: lighten( $linkColor, 25% );
@@ -55,11 +55,15 @@ section.has-light-background {
     left: 30px;
     bottom: 30px;
     width: 160px;
-    z-index: 100;
 }
 
 .logo-upper {
     bottom: 100px;
+}
+
+.logo-container #codefest_logo {
+    width: 100%;
+    height: auto;
 }
 
 .logo-container #dins_logo {
@@ -68,7 +72,6 @@ section.has-light-background {
 }
 
 .reveal .slide-number {
-    font-family: 'Roboto-Light', Helvetica, 'Source Sans Pro',  sans-serif !important;
     font-size: 32px;
 }
 
@@ -106,31 +109,22 @@ section.has-light-background {
     font-weight: 900 !important;
 }
 
+
 .color-red {
-    color: #C90104 !important;
+    color: #CC333F !important;
 }
 
-.color-evening {
-    color: #4C6FC1 !important;
+.color-green {
+    color: #47985B !important;
 }
 
 .color-cyan {
-    color: #29AAE3 !important;
+    color: #00A0B0 !important;
 }
 
-.color-purple-light {
-    color:  #644BB0 !important;
+.color-blue {
+    color:  #2D415E !important;
 }
-
-.color-purple {
-    color:  #383794 !important;
-}
-
-
-.color-grey {
-    color: #9b9b9b !important;
-}
-
 
 .high-line {
     line-height: 1.8 !important;
@@ -167,6 +161,16 @@ section.has-light-background {
     text-align: center;
 }
 
+.circle:after {
+    display: block;
+    padding-bottom: 100%;
+    width: 100%;
+    height: 0;
+    border-radius: 50%;
+    background-color: #e3e6e4;
+    content: "";
+}
+
 .circle__inner {
     position: absolute;
     top: 0;
@@ -174,16 +178,6 @@ section.has-light-background {
     left: 0;
     width: 100%;
     height: 100%;
-}
-
-.circle:after {
-    display: block;
-    padding-bottom: 100%;
-    width: 100%;
-    height: 0;
-    border-radius: 50%;
-    background-color: #4C6FC1;
-    content: "";
 }
 
 .circle__wrapper {
@@ -196,46 +190,6 @@ section.has-light-background {
     display: table-cell;
     padding: 100em;
     vertical-align: middle !important;
-}
-
-.croissant {
-    margin: 0 !important;
-    border: none !important;
-    box-shadow: none !important;
-    display: inline-block;
-    background: none !important;
-}
-
-.slide-flex-container {
-    display: flex;
-    flex-direction: column;
-}
-
-.left-flex-container {
-    display: flex;
-    justify-content: flex-start;
-}
-
-.center-flex-container {
-    display: flex;
-    justify-content: center;
-}
-
-.button_yellow {
-    font: 48px Arial, Helvetica, sans-serif !important;
-    display: inline !important;
-    outline: none !important;
-    cursor: pointer !important;
-    text-align: center !important;
-    text-decoration: none !important;
-    padding: 0.1em 0.8em 0.1em !important;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3) !important;
-    border-radius: 0.05em !important;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) !important;
-    margin: 2px 4px !important;
-    color: white !important;
-    border: solid 1px #ff9a1b !important;
-    background: #ffb04e !important;
 }
 
 // Theme template ------------------------------
