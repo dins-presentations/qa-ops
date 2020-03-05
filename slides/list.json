@@ -5,12 +5,7 @@
             "data-background": "resources/img/title.png"
         }
     },
-    {
-        "filename": "intro/01_scheme_more_tests.html",
-        "attr": {
-            "data-background": "resources/img/scheme_testing_is_simple.png"
-        }
-    },
+    "intro/01_scheme_more_tests.html",
 
     "intro/02_annoying_questions.html",
     "intro/03_jenkins_jobs.html",
