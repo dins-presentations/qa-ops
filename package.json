@@ -17,7 +17,7 @@
         "postinstall": "./node_modules/bower/bin/bower install"
     },
     "dependencies": {
-        "bower": "1.8.0",
+        "bower": "1.8.8",
         "coffeelint": "^1.16.0",
         "grunt": "1.0.1",
         "grunt-cli": "1.2.0",
