@@ -28,31 +28,42 @@
         }
     },
     {
+        "filename": "intro/04_dins.html",
         "attr": {
             "data-background": "resources/img/dins.png",
             "data-background-transition": "slide"
         }
     },
     {
+        "filename": "intro/05_office_stp.html",
         "attr": {
             "data-background": "resources/img/office_1.png",
             "data-background-transition": "slide"
         }
     },
     {
+        "filename": "intro/06_office_fidel.html",
         "attr": {
             "data-background": "resources/img/office_2.png",
             "data-background-transition": "slide"
         }
     },
     {
+        "filename": "intro/07_meetups.html",
         "attr": {
             "data-background": "resources/img/office_life.png",
             "data-background-transition": "slide"
         }
     },
-    "intro/05_what_is_platform.html",
-    "intro/06_platform_testing.html",
+    {
+        "filename": "intro/08_what_is_platform.html",
+        "attr": {
+            "data-background": "resources/img/platform_api.png",
+            "data-background-transition": "slide"
+        }
+    },
+
+    "intro/09_platform_testing.html",
     "intro/07_why_ci_doesnt_work.html",
     "intro/08_what_is_quality_assurance.html",
     "intro/09_how_we_fix_ci.html",
