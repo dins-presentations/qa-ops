@@ -53,7 +53,7 @@
                 
                     
                         
-    <section data-html="slides/index.html"></section>
+    <section data-background="resources/img/title.png" data-background-transition="slide" data-html="slides/index.html"></section>
 
 
                     
@@ -61,7 +61,7 @@
                 
                     
                         
-    <section data-html="slides/intro/01_scheme_more_tests.html"></section>
+    <section data-background="resources/img/scheme_testing_is_simple.png" data-background-transition="slide" data-html="slides/intro/01_scheme_more_tests.html"></section>
 
 
                     
@@ -69,7 +69,7 @@
                 
                     
                         
-    <section data-html="slides/intro/02_annoying_questions.html"></section>
+    <section data-background="resources/img/annoying_questions.png" data-background-transition="slide" data-html="slides/intro/02_annoying_questions.html"></section>
 
 
                     
@@ -77,7 +77,7 @@
                 
                     
                         
-    <section data-html="slides/intro/03_jenkins_jobs.html"></section>
+    <section data-background="resources/img/jenkins_jobs_scheme.png" data-background-transition="slide" data-html="slides/intro/03_jenkins_jobs.html"></section>
 
 
                     
@@ -85,7 +85,7 @@
                 
                     
                         
-    <section data-html="slides/intro/04_what_is_rc.html"></section>
+    <section data-background="resources/img/dins.png" data-background-transition="slide" data-html="slides/intro/04_dins.html"></section>
 
 
                     
@@ -93,7 +93,7 @@
                 
                     
                         
-    <section data-html="slides/intro/05_what_is_platform.html"></section>
+    <section data-background="resources/img/office_1.png" data-background-transition="slide" data-html="slides/intro/05_office_stp.html"></section>
 
 
                     
@@ -101,7 +101,31 @@
                 
                     
                         
-    <section data-html="slides/intro/06_platform_testing.html"></section>
+    <section data-background="resources/img/office_2.png" data-background-transition="slide" data-html="slides/intro/06_office_fidel.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="resources/img/office_life.png" data-background-transition="slide" data-html="slides/intro/07_meetups.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background="resources/img/platform_api.png" data-background-transition="slide" data-html="slides/intro/08_what_is_platform.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/intro/09_platform_testing.html"></section>
 
 
                     
@@ -359,7 +383,6 @@
 
         </div>
 
-        <script src="bower_components/reveal.js/lib/js/head.min.js"></script>
         <script src="bower_components/reveal.js/js/reveal.js"></script>
         <script>
 
@@ -372,8 +395,8 @@
             center: true,
 
             // try to keep graphs working properly
-            //width: '100%',
-            //height: '100%',
+            width: '100%',
+            height: '100%',
             margin: 0,
             minScale: 1,
             maxScale: 1,
@@ -390,19 +413,10 @@
               { src: 'bower_components/reveal.js/plugin/zoom-js/zoom.js', async: true },
               { src: 'bower_components/reveal.js/plugin/notes/notes.js', async: true },
               { src: 'js/loadhtmlslides.js', condition: function() { return !!document.querySelector( '[data-html]' ); }, async: false },
-              { src: 'js/graph/code_graph/code_graph.js', async: false }
             ]
           });
 
         </script>
-        <!-- cytoscape -->
-        <script src="js/cytoscape/cytoscape.min.js"></script>
-        <script src="js/cola.min.js"></script>
-        <script src="js/cytoscape/cytoscape-cola.js"></script>
-        <script src="js/cytoscape/cytoscape-cose-bilkent.js"></script>
-        <script src="js/jquery/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="js/graph/graph_data.js"></script>
-
     </body>
 
 </html>
