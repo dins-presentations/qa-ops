@@ -136,31 +136,41 @@ div.graph {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     grid-template-areas:
-        "release-1 change-1"
-        "release-2 change-2";
-    grid-row-gap: 10vmin;
+        "release                    change"
+        "release-description        change-description"
+        "release-picture            change-picture";
+    grid-row-gap: 1vmin;
     grid-column-gap: 10vmin;
 }
 
-.release-1 {
+.release {
     align-self: center;
-    grid-area: release-1;
+    grid-area: release;
     line-height: 1.8em;
 }
-.release-2 {
+.release-description {
     align-self: center;
-    grid-area: release-2;
+    grid-area: release-description;
+    line-height: 1.8em;
+}
+.release-picture {
+    align-self: center;
+    grid-area: release-picture;
     line-height: 1.8em;
 }
 
-.change-1 {
+.change {
     align-self: center;
-    grid-area: change-1;
+    grid-area: change;
     line-height: 1.8em;
 }
-
-.change-2 {
+.change-description {
     align-self: center;
-    grid-area: change-2;
+    grid-area: change-description;
+    line-height: 1.8em;
+}
+.change-picture {
+    align-self: center;
+    grid-area: change-picture;
     line-height: 1.8em;
 }

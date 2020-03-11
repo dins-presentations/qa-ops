@@ -62,7 +62,12 @@
             "data-background-transition": "slide"
         }
     },
-    "intro/09_releases_vs_changes.html",
+    {
+        "filename": "intro/09_releases_vs_changes.html",
+        "attr": {
+            "data-background-transition": "slide"
+        }
+    },
     "intro/09_platform_testing.html",
     "intro/10_why_ci_doesnt_work.html",
     "intro/08_what_is_quality_assurance.html",
