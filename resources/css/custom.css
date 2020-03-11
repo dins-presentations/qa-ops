@@ -113,15 +113,16 @@ div.graph {
     grid-column-gap: 10vmin;
 }
 
-.reveal .slides section .content {
-    align-self: start;
-    grid-area: content;
-}
-
 .reveal .slides section .header {
+    padding-top: 70px;
     align-self: center;
     grid-area: header;
     line-height: 1.8em;
+}
+
+.reveal .slides section .content {
+    align-self: start;
+    grid-area: content;
 }
 
 .reveal .slides section .footer {
@@ -130,3 +131,36 @@ div.graph {
     line-height: 1.8em;
 }
 
+.release-vs-change-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "release-1 change-1"
+        "release-2 change-2";
+    grid-row-gap: 10vmin;
+    grid-column-gap: 10vmin;
+}
+
+.release-1 {
+    align-self: center;
+    grid-area: release-1;
+    line-height: 1.8em;
+}
+.release-2 {
+    align-self: center;
+    grid-area: release-2;
+    line-height: 1.8em;
+}
+
+.change-1 {
+    align-self: center;
+    grid-area: change-1;
+    line-height: 1.8em;
+}
+
+.change-2 {
+    align-self: center;
+    grid-area: change-2;
+    line-height: 1.8em;
+}
