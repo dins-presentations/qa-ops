@@ -66,6 +66,9 @@ section.has-light-background, section.has-light-background h1, section.has-light
 .color-blue {
   color: #2D415E !important; }
 
+.color-grey {
+  color: #777B7E !important; }
+
 .high-line {
   line-height: 1.8 !important; }
 
@@ -91,7 +94,6 @@ section.has-light-background, section.has-light-background h1, section.has-light
 .circle {
   position: relative;
   display: block;
-  margin: 2em 0;
   text-align: center; }
 
 .circle:after {
@@ -118,7 +120,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
 
 .circle__content {
   display: table-cell;
-  padding: 100em;
+  padding: unset !important;
   vertical-align: middle !important; }
 
 /*********************************************
