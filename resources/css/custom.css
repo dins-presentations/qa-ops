@@ -191,3 +191,15 @@ div.graph {
         rgba(0,0,0,0) calc(50% + 3px),
         rgba(0,0,0,0) 100%);
 }
+
+.comparison-wrapper {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 100px 1fr 100px;
+    grid-template-areas:
+        "sidebar header header"
+        "sidebar first second"
+        "sidebar footer footer";
+    grid-row-gap: 2vmin;
+    grid-column-gap: 10vmin;
+}
