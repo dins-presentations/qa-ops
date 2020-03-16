@@ -95,7 +95,21 @@
             "data-background": "resources/img/why_doesnt_work_solution.png"
         }
     },
-    "intro/14_small_vs_big.html",
+    {
+        "filename": "intro/14_msci.html",
+        "attr": {
+            "data-transition": "slide",
+            "data-background": "resources/img/msci.png"
+        }
+    },
+    {
+        "filename": "intro/15_environments.html",
+        "attr": {
+            "data-transition": "slide",
+            "data-background": "resources/img/pigeon.png"
+        }
+    },
+
     "intro/08_what_is_quality_assurance.html",
     "intro/09_how_we_fix_ci.html",
     "intro/10_journey_to_cd.html",
