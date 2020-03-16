@@ -62,14 +62,44 @@
             "data-background-transition": "slide"
         }
     },
-
-    "intro/09_platform_testing.html",
-    "intro/07_why_ci_doesnt_work.html",
+    {
+        "filename": "intro/09_releases_vs_changes.html",
+        "attr": {
+            "data-background-transition": "slide"
+        }
+    },
+    {
+        "filename": "intro/10_platform_testing.html",
+        "attr": {
+            "data-transition": "slide-in none-out"
+        }
+    },
+    {
+        "filename": "intro/11_platform_testing_lie.html",
+        "attr": {
+            "data-transition": "none-in slide-out",
+            "data-background": "resources/img/pain.png"
+        }
+    },
+    {
+        "filename": "intro/12_why_ci_doesnt_work.html",
+        "attr": {
+            "data-transition": "slide-in none-out",
+            "data-background": "resources/img/why_doesnt_work.png"
+        }
+    },
+    {
+        "filename": "intro/13_why_ci_doesnt_work_solution.html",
+        "attr": {
+            "data-transition": "none-in slide-out",
+            "data-background": "resources/img/why_doesnt_work_solution.png"
+        }
+    },
+    "intro/14_small_vs_big.html",
     "intro/08_what_is_quality_assurance.html",
     "intro/09_how_we_fix_ci.html",
     "intro/10_journey_to_cd.html",
     "intro/11_sla.html",
-    "intro/12_releases_vs_changes.html",
 
     "where/01_where_to_deploy.html",
 

@@ -12,10 +12,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
         <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.css">
-        <link rel="stylesheet" href="resources/css/custom.css">
 
         <link rel="stylesheet" href="css/theme.css" id="theme">
-
+        <link rel="stylesheet" href="resources/css/custom.css">
 
         <!-- For syntax highlighting -->
         <link rel="stylesheet" href="bower_components/highlightjs/styles/zenburn.css">
@@ -125,7 +124,7 @@
                 
                     
                         
-    <section data-html="slides/intro/09_platform_testing.html"></section>
+    <section data-background-transition="slide" data-html="slides/intro/09_releases_vs_changes.html"></section>
 
 
                     
@@ -133,7 +132,39 @@
                 
                     
                         
-    <section data-html="slides/intro/07_why_ci_doesnt_work.html"></section>
+    <section data-transition="slide-in none-out" data-html="slides/intro/10_platform_testing.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-transition="none-in slide-out" data-background="resources/img/pain.png" data-html="slides/intro/11_platform_testing_lie.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-transition="slide-in none-out" data-background="resources/img/why_doesnt_work.png" data-html="slides/intro/12_why_ci_doesnt_work.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-transition="none-in slide-out" data-background="resources/img/why_doesnt_work_solution.png" data-html="slides/intro/13_why_ci_doesnt_work_solution.html"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-html="slides/intro/14_small_vs_big.html"></section>
 
 
                     
@@ -166,14 +197,6 @@
                     
                         
     <section data-html="slides/intro/11_sla.html"></section>
-
-
-                    
-                    
-                
-                    
-                        
-    <section data-html="slides/intro/12_releases_vs_changes.html"></section>
 
 
                     
@@ -392,12 +415,18 @@
             controls: true,
             progress: true,
             history: true,
-            center: true,
 
-            // try to keep graphs working properly
+            center: false,
+
+            // The "normal" size of the presentation, aspect ratio will be preserved
+            // when the presentation is scaled to fit different resolutions. Can be
+            // specified using percentage units.
             width: '100%',
             height: '100%',
-            margin: 0,
+
+              // Factor of the display size that should remain empty around the content
+            margin: 0.1,
+
             minScale: 1,
             maxScale: 1,
             //transition: 'none',
