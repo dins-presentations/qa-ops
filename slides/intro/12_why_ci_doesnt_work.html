@@ -1,26 +1,33 @@
-<div class="grid-wrapper">
-    <div class="title">
-        <h2>Почему?</h2>
-    </div>
-    <div class="content">
-        <div class="comparison-wrapper">
-            <div></div>
-            <h2 style="text-transform: none;">Обычный сервис</h2>
-            <h2 style="text-transform: none;">Облачная телефония</h2>
-
-            <p class="fragment" data-fragment-index="1">Пишем тесты</p>
-            <p class="fragment" data-fragment-index="2"style="font-size: 75px; color: green;">&check;</p>
-            <p class="fragment" data-fragment-index="3" style="font-size: 75px; color: green;">&check;</p>
-
-            <p class="fragment" data-fragment-index="4">Jenkins джобы</p>
-            <p class="fragment" data-fragment-index="5" style="font-size: 75px; color: green;">&check;</p>
-            <p class="fragment" data-fragment-index="6" style="font-size: 75px; color: green;">&check;</p>
-
-            <p></p>
-            <p class="fragment" data-fragment-index="7">CI/CD и качество</p>
-            <p class="fragment" data-fragment-index="8">грусть, печаль, тоска и огорчение</p>
-        </div>
-    </div>
+<div class="container__column">
+    <h2 style="text-transform: none;">Почему?</h2>
+    <table class="comparision-table">
+        <thead>
+            <tr>
+                <th></th>
+                <th scope="col">Обычный сервис</th>
+                <th scope="col">Облачная телефония</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th scope="row"></th>
+                <td class="fragment" data-fragment-index="7">CI/CD и качество</td>
+                <td class="fragment" data-fragment-index="8">грусть, печаль, тоска и огорчение</td>
+            </tr>
+        </tfoot>
+        <tbody>
+        <tr>
+            <th class="fragment" data-fragment-index="1" scope="row">Пишем тесты</th>
+            <td class="fragment" data-fragment-index="2" style="font-size: 75px; color: green;">&check;</td>
+            <td class="fragment" data-fragment-index="3" style="font-size: 75px; color: green;">&check;</td>
+        </tr>
+        <tr>
+            <th class="fragment" data-fragment-index="4" scope="row">Jenkins джобы</th>
+            <td class="fragment" data-fragment-index="5" style="font-size: 75px; color: green;">&check;</td>
+            <td class="fragment" data-fragment-index="6" style="font-size: 75px; color: green;">&check;</td>
+        </tr>
+        </tbody>
+    </table>
 </div>
 
 

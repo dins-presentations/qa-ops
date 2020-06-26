@@ -1,26 +1,33 @@
-<div class="grid-wrapper">
-    <div class="title">
-        <h2>Почему?</h2>
-    </div>
-    <div class="content" style="filter: blur(5px); z-index: -99;">
-        <div class="comparison-wrapper">
-            <div></div>
-            <h2 style="text-transform: none;">Обычный сервис</h2>
-            <h2 style="text-transform: none;">Облачная телефония</h2>
-
-            <p>Пишем тесты</p>
-            <p style="font-size: 75px; color: green; z-index: -99999;">&check;</p>
-            <p style="font-size: 75px; color: green;">&check;</p>
-
-            <p>Jenkins джобы</p>
-            <p style="font-size: 75px; color: green;">&check;</p>
-            <p style="font-size: 75px; color: green;">&check;</p>
-
-            <p></p>
-            <p>CI/CD и качество</p>
-            <p>грусть печаль тоска и огорчение</p>
-        </div>
-    </div>
+<div class="container__column">
+    <h2 style="text-transform: none;">Почему?</h2>
+    <table class="comparision-table" style="filter: blur(5px); z-index: -99;">
+        <thead>
+        <tr>
+            <th></th>
+            <th scope="col">Обычный сервис</th>
+            <th scope="col">Облачная телефония</th>
+        </tr>
+        </thead>
+        <tfoot>
+        <tr>
+            <th scope="row"></th>
+            <td>CI/CD и качество</td>
+            <td>грусть, печаль, тоска и огорчение</td>
+        </tr>
+        </tfoot>
+        <tbody>
+        <tr>
+            <th scope="row">Пишем тесты</th>
+            <td style="font-size: 75px; color: green;">&check;</td>
+            <td style="font-size: 75px; color: green;">&check;</td>
+        </tr>
+        <tr>
+            <th scope="row">Jenkins джобы</th>
+            <td style="font-size: 75px; color: green;">&check;</td>
+            <td style="font-size: 75px; color: green;">&check;</td>
+        </tr>
+        </tbody>
+    </table>
 </div>
 
 
