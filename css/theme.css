@@ -92,36 +92,15 @@ section.has-light-background, section.has-light-background h1, section.has-light
   line-height: 1.8; }
 
 .circle {
-  position: relative;
-  display: block;
-  text-align: center; }
-
-.circle:after {
-  display: block;
-  padding-bottom: 100%;
-  width: 100%;
-  height: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 300px;
+  min-height: 300px;
   border-radius: 50%;
-  background-color: #e3e6e4;
-  content: ""; }
-
-.circle__inner {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%; }
-
-.circle__wrapper {
-  display: table;
-  width: 100%;
-  height: 100%; }
-
-.circle__content {
-  display: table-cell;
-  padding: unset !important;
-  vertical-align: middle !important; }
+  font-size: 50px;
+  color: #222;
+  background: #e3e6e4; }
 
 /*********************************************
  * GLOBAL STYLES
@@ -387,3 +366,30 @@ body {
 @media print {
   .backgrounds {
     background-color: #fafafa; } }
+
+.container {
+  display: flex;
+  /* or inline-flex */
+  justify-content: space-evenly;
+  align-content: center; }
+
+.title {
+  align-self: center;
+  flex-basis: 25%; }
+
+.content {
+  align-self: center;
+  flex-basis: 50%;
+  /* default 0 */ }
+
+.container__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: stretch;
+  flex-basis: 80%; }
+
+.container__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }

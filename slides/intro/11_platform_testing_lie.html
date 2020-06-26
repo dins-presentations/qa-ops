@@ -1,56 +1,47 @@
-<div class="grid-wrapper">
-    <div class="header">
-        <h2 style="text-transform: none;">Регрессионное тестирование</h2>
-    </div>
-    <div class="content">
-        <div style="padding-top: 1em; display: flex; justify-content: space-around;">
-            <div class="" style="float: left; width: 23%;">
-                <div class="circle">
-                    <div class="circle__inner">
-                        <div class="circle__wrapper">
-                            <div class="circle__content">
-                                <div>12 000</div>
-                                <div>Unit</div>
-                                <div>тестов</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+<div class="container__column">
+    <h2 style="text-transform: none;">Регрессионное тестирование</h2>
+    <div class="container__row">
+        <div class="circle fade-up">
+            <div>
+                <div>12 000</div>
+                <div>Unit</div>
+                <div>тестов</div>
             </div>
-            <div class="" style="float: left; width: 23%;">
-                <div class="circle">
-                    <div class="circle__inner">
-                        <div class="circle__wrapper">
-                            <div class="circle__content">
-                                <div>14 000</div>
-                                <div>сквозных</div>
-                                <div>тестов</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        </div>
+        <div class="circle fade-up">
+            <div>
+                <div>14 000</div>
+                <div>сквозных</div>
+                <div>тестов</div>
             </div>
-            <div class="" style="float: left; width: 23%;">
-                <div class="circle">
-                    <div class="circle__inner">
-                        <div class="circle__wrapper">
-                            <div class="circle__content">
-                                <div style="display: inline-block">
-                                    <div>2</div>
-                                    <span class="strikethrough"> часа</span>
-                                    <div>недели</div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
+        </div>
+        <div class="circle fade-up">
+            <div>
+                <div>2</div>
+                <span class="strikethrough"> часа</span>
+                <div>недели</div>
             </div>
         </div>
     </div>
 </div>
 
-<!--<div style="visibility: hidden; margin-top: 160px;">ORLY</div>-->
-
 <aside class="notes">
+    У меня на это ушло 2 недели, а все потому что мне пришлось сделать следующее:
+
+    Во первых мне нужно было подготовить окружение:
+
+    - Найти какие версии сервисов нам нужны
+    - Проверить правильно ли они настроенны
+    - Задеплоить их
+
+    Во вторых нужно было прогнать саму регрессию:
+
+    - Проверить правильные ли версии Jenkins Job у нас используются
+    - Обновить их
+    - Подготовить данные для тестов
+    - Запустить p0 тесты
+    - Починить окружение
+    - Перепрогнать p0 тесты
+    - Запустить основную регрессию
+    - Заретраить ее до позеленения
 </aside>

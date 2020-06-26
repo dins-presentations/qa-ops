@@ -1,16 +1,61 @@
-<div class="grid-wrapper">
-    <div class="header">
-        <h2 style="text-transform: none;">Почему CI не работает?</h2>
-    </div>
-    <div class="content">
-        <ul class="high-line" style="list-style-type: none; text-align: center; padding-left: 0; margin-left:0;" >
-            <li class="fragment">Слишком большой проект</li>
-            <li class="fragment">CI - только для стартапов</li>
-        </ul>
-    </div>
+<div class="container__column">
+    <h2 style="text-transform: none;">Почему?</h2>
+    <table class="comparision-table">
+        <thead>
+            <tr>
+                <th></th>
+                <th scope="col">Обычный сервис</th>
+                <th scope="col">Облачная телефония</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th scope="row"></th>
+                <td class="fragment" data-fragment-index="7">CI/CD и качество</td>
+                <td class="fragment" data-fragment-index="8">грусть, печаль, тоска и огорчение</td>
+            </tr>
+        </tfoot>
+        <tbody>
+        <tr>
+            <th class="fragment" data-fragment-index="1" scope="row">Пишем тесты</th>
+            <td class="fragment" data-fragment-index="2" style="font-size: 75px; color: green;">&check;</td>
+            <td class="fragment" data-fragment-index="3" style="font-size: 75px; color: green;">&check;</td>
+        </tr>
+        <tr>
+            <th class="fragment" data-fragment-index="4" scope="row">Jenkins джобы</th>
+            <td class="fragment" data-fragment-index="5" style="font-size: 75px; color: green;">&check;</td>
+            <td class="fragment" data-fragment-index="6" style="font-size: 75px; color: green;">&check;</td>
+        </tr>
+        </tbody>
+    </table>
 </div>
 
 
 
 <aside class="notes">
+
+    Почему схема даешь больше тестов и Jenkins job'ы не работает для DINS?
+    Т.е. либо
+
+    * Тесты и Jenkins джобы это не CI
+    * CI не работает на больших проектах
+
+    Но CI/CD придумали большие компании, для больших проектов. Вообщем грусть печаль тоска и огорчение.
+    (Kent Beck Chrysler Comprehensive Compensation System)
+
+
+    Из этого я сделал для себя следующие выводы:
+    Начиная с опеределенного масштаба
+    1) Тысячи тестов никак не помогают обеспечить/увеличить качество
+    2) Триггеры и кнопки в Jenkins для запуска тестов и деплоя тоже не помогают
+
+    Так что же тогда такое обеспечение качества?
+
+    > Quality Assurance — это процесс или результат формирования требуемых свойств и характеристик продукции
+    > по мере её создания, а также — поддержание этих характеристик при хранении,
+    > транспортировании и эксплуатации продукции.
+    > * Wikipedia
+
+    Не так давно я со своим коллегой расказывал как настроить и отмасштабировать процесс непрерывной интеграции,
+    так чтоб тестировать множество небольших изменений.
 </aside>
