@@ -212,11 +212,108 @@
 
 
     "how/01_deployment_strategies.html",
-    "how/02_suicide.html",
-    "how/03_rolling.html",
-    "how/04_blue_green.html",
-    "how/05_rainbow.html",
-    "how/06_check_deployment.html",
+    {
+        "filename": "how/02_basic_deploy_success.html",
+        "attr": {
+            "data-transition": "slide",
+            "data-background": "resources/img/basic_success.png"
+        }
+    },
+    {
+        "filename": "how/03_basic_deploy_failure.html",
+        "attr": {
+            "data-transition": "slide",
+            "data-background": "resources/img/basic_failure.png"
+        }
+    },
+    {
+        "filename": "how/04_rolling.html",
+        "attr": {
+            "data-transition": "slide-in none-out",
+            "data-background": "resources/img/rolling_deployment_1.png"
+        }
+    },
+    {
+        "filename": "how/04_rolling.html",
+        "attr": {
+            "data-transition": "none-in none-out",
+            "data-background": "resources/img/rolling_deployment_2.png"
+        }
+    },
+    {
+        "filename": "how/04_rolling.html",
+        "attr": {
+            "data-transition": "none-in none-out",
+            "data-background": "resources/img/rolling_deployment_3.png"
+        }
+    },
+    {
+        "filename": "how/04_rolling.html",
+        "attr": {
+            "data-transition": "none-in slide-out",
+            "data-background": "resources/img/rolling_deployment_4.png"
+        }
+    },
+    {
+        "filename": "how/05_blue_green.html",
+        "attr": {
+            "data-transition": "slide",
+            "data-background": "resources/img/blue_green.png"
+        }
+    },
+
+    {
+        "filename": "how/06_rainbow.html",
+        "attr": {
+            "data-transition": "slide-in none-out",
+            "data-background": "resources/img/rainbow_deployment_1.png"
+        }
+    },
+    {
+        "filename": "how/06_rainbow.html",
+        "attr": {
+            "data-transition": "none-in none-out",
+            "data-background": "resources/img/rainbow_deployment_2.png"
+        }
+    },
+    {
+        "filename": "how/06_rainbow.html",
+        "attr": {
+            "data-transition": "none-in none-out",
+            "data-background": "resources/img/rainbow_deployment_3.png"
+        }
+    },
+    {
+        "filename": "how/06_rainbow.html",
+        "attr": {
+            "data-transition": "none-in none-out",
+            "data-background": "resources/img/rainbow_deployment_4.png"
+        }
+    },
+    {
+        "filename": "how/06_rainbow.html",
+        "attr": {
+            "data-transition": "none-in none-out",
+            "data-background": "resources/img/rainbow_deployment_5.png"
+        }
+    },
+    {
+        "filename": "how/06_rainbow.html",
+        "attr": {
+            "data-transition": "none-in none-out",
+            "data-background": "resources/img/rainbow_deployment_6.png"
+        }
+    },
+    {
+        "filename": "how/06_rainbow.html",
+        "attr": {
+            "data-transition": "none-in slide-out",
+            "data-background": "resources/img/rainbow_deployment_7.png"
+        }
+    },
+
+
+    "how/07_check_deployment.html",
 
     "final/01_how_to_do.html",
     "final/02_whats_wrong_with_jenkins.html",
