@@ -311,19 +311,147 @@
             "data-background": "resources/img/rainbow_deployment_7.png"
         }
     },
-
-
     "how/07_check_deployment.html",
 
-    "final/01_how_to_do.html",
-    "final/02_whats_wrong_with_jenkins.html",
-    "final/03_spinnaker.html",
-    "final/04_jsonnet.html",
-    "final/05_jenkins.html",
-    "final/06_my_bloody_jenkins.html",
-    "final/07_kubernetes_job.html",
-    "final/08_pipeline.html",
-    "final/09_result.html",
+    {
+        "filename": "final/01_what_we_want.html",
+        "attr": {
+            "data-transition": "slide-in none-out",
+            "data-background": "resources/img/what_we_want_1.png"
+        }
+    },
+    {
+        "filename": "final/01_what_we_want.html",
+        "attr": {
+            "data-transition": "none-in none-out",
+            "data-background": "resources/img/what_we_want_2.png"
+        }
+    },
+    {
+        "filename": "final/01_what_we_want.html",
+        "attr": {
+            "data-transition": "none-in none-out",
+            "data-background": "resources/img/what_we_want_3.png"
+        }
+    },
+    {
+        "filename": "final/01_what_we_want.html",
+        "attr": {
+            "data-transition": "none-in slide-out",
+            "data-background": "resources/img/what_we_want_4.png"
+        }
+    },
+    {
+        "filename": "final/01_what_we_want.html",
+        "attr": {
+            "data-transition": "slide-in slide-out",
+            "data-background": "resources/img/rainbow_production.png"
+        }
+    },
+    {
+        "filename": "final/02_what_we_want.html",
+        "attr": {
+            "data-transition": "slide-in slide-out",
+            "data-background": "resources/img/prod_to_lab.png"
+        }
+    },
+    {
+        "filename": "final/03_whats_wrong_with_jenkins.html",
+        "attr": {
+            "data-transition": "slide-in none-out",
+            "data-background": "resources/img/jenkins.png"
+        }
+    },
+    {
+        "filename": "final/04_jenkins_x.html",
+        "attr": {
+            "data-transition": "none-in slide-out",
+            "data-background": "resources/img/jenkins_transformation.png"
+        }
+    },
+    {
+        "filename": "final/05_spinnaker.html",
+        "attr": {
+            "data-transition": "slide-in slide-out"
+        }
+    },
+    {
+        "filename": "final/06_spinnaker_pipeline.html",
+        "attr": {
+            "data-transition": "slide-in none-out",
+            "data-background": "resources/img/spinnaker_pipeline.png"
+        }
+    },
+    {
+        "filename": "final/06_spinnaker_pipeline.html",
+        "attr": {
+            "data-transition": "none-in none-out",
+            "data-background": "resources/img/spinnaker_pipeline_2.png"
+        }
+    },
+    {
+        "filename": "final/07_spinnaker_pipeline_json.html",
+        "attr": {
+            "data-transition": "none-in slide-out",
+            "data-background": "resources/img/bear_facepalm.png"
+        }
+    },
+    {
+        "filename": "final/08_jsonnet.html",
+        "attr": {
+            "data-transition": "slide-in slide-out"
+        }
+    },
+    {
+        "filename": "final/09_sponnet.html",
+        "attr": {
+            "data-transition": "slide-in slide-out"
+        }
+    },
+    {
+        "filename": "final/10_pipeline_updater.html",
+        "attr": {
+            "data-transition": "slide-in slide-out",
+            "data-background": "resources/img/pipeline_gitops.png"
+        }
+    },
+    {
+        "filename": "final/11_delivery_plan.html",
+        "attr": {
+            "data-transition": "slide-in slide-out"
+        }
+    },
+    {
+        "filename": "final/12_delivery_plan.html",
+        "attr": {
+            "data-transition": "slide-in none-out"
+        }
+    },
+    {
+        "filename": "final/13_delivery_plan.html",
+        "attr": {
+            "data-transition": "none-in none-out"
+        }
+    },
+    {
+        "filename": "final/14_delivery_plan.html",
+        "attr": {
+            "data-transition": "none-in slide-out"
+        }
+    },
+    {
+        "filename": "final/15_delivery_plan.html",
+        "attr": {
+            "data-transition": "slide-in slide-out"
+        }
+    },
+    {
+        "filename": "final/16_managed_delivery.html",
+        "attr": {
+            "data-transition": "slide-in slide-out",
+            "data-background": "resources/img/managed_delivery.png"
+        }
+    },
     "final/10_why_qa_should_do_that.html",
     "final/11_questions.html",
     "final/12_contacts.html"

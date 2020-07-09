@@ -1,0 +1,27 @@
+<div class="container__column" style="justify-content: flex-start">
+    <h2 style="text-transform: none;">План поставки</h2>
+    <pre class="code-box">
+        <code class="yaml" data-trim style="line-height: normal; font-size: 32px; max-height: 800px">
+dependencies:
+  - name: "ops <- verify"
+    scope: { area_tags: [ "stage"] }
+    depends_on:
+      - { area_tags: [ "verify" ] }
+  - name: "pro <- ops"
+    scope: { area_tags: [ "pro"] }
+    depends_on:
+      - { area_tags: [ "stage" ] }
+  - name: "lab <- pro"
+    scope: { area_tags: [ "lab"] }
+    depends_on:
+      - { area_tags: [ "pro" ] }
+  - name: "pro deploy <- switch"
+    scope: { area_tags: [ "pro" ], change_types: [ "deploy" ] }
+    depends_on:
+      - { area_tags: [ "pro" ], change_types: [ "switch_red" ] }
+        </code>
+    </pre>
+</div>
+
+<aside class="notes">
+</aside>

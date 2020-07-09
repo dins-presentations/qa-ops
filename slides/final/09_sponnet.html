@@ -1,0 +1,23 @@
+<div class="container__column">
+    <h2 style="text-transform: none !important; white-space: nowrap;">Sponnet</h2>
+    <pre class="code-box">
+        <code class="javascript" data-trim style="line-height: normal; font-size: 32px;">
+local sponnet = import '../pipeline.libsonnet';
+...
+
+sponnet.pipeline()
+.withApplication(app)
+.withExpectedArtifacts([expectedDocker, expectedManifest, expectedHelm])
+.withId('sponnet-demo-pipeline')
+.withName('Demo pipeline')
+.withNotifications([emailPipelineNotification])
+.withTriggers([dockerTrigger, gitTrigger])
+.withStages([checkPreconditions, bakeManifest, deployBakedManifest,
+             findArtifactsFromResource, jenkinsJob])
+        </code>
+    </pre>
+
+</div>
+
+<aside class="notes">
+</aside>
