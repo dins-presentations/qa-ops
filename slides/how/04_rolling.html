@@ -2,8 +2,9 @@
     <h2 style="text-transform: none;">Rolling Deployment</h2>
 </div>
 <aside class="notes">
-    All nodes within a single environment are incrementally updated one-by-one or in N batches (as defined by a window size) with a new service/artifact version.
-    Pros: Simple, cheap, relatively simple to rollback, less risk than basic deployment.
-    Cons: App/DB needs to support both new and old artifacts. Manual checks/verification at each increment could take a long time.
+    В данном случае мы обновляем все наши сервера инкрементально один за одним или сразу по несколько штук
+
+    Это достаточно простая и дешевая стратегия плюс мы можем легко откатится и она намного безопсанее
+    Но старая и новая версия сервиса должны быть обратно совместимы!
 </aside>
 
